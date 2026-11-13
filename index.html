@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>yağmur&amp;co | Sosyal Medya Danışmanlığı ve Prodüksiyon</title>
+  <meta name="description" content="Kamu kurumları, özel şirketler ve kişiler için stratejik sosyal medya danışmanlığı, içerik yönetimi ve video–fotoğraf prodüksiyonu." />
+  <meta property="og:title" content="yağmur&amp;co | Sosyal Medya Danışmanlığı ve Prodüksiyon" />
+  <meta property="og:description" content="Kamu kurumları, özel şirketler ve kişiler için strateji, içerik ve prodüksiyon." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0a0a0a" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800;900&family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <script src="config.js"></script>
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="progress" id="progress" aria-hidden="true"></div>
+  <div class="cursor" id="cursor" aria-hidden="true"><span id="cursorLabel"></span></div>
+
+  <!-- MENÜ -->
+  <header class="nav" id="nav">
+    <a href="#top" class="logo" aria-label="yağmur&amp;co ana sayfa">
+      <svg class="logo__mark" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 4 C50 4 16 44 16 65 A34 34 0 0 0 84 65 C84 44 50 4 50 4 Z" fill="currentColor"/><path d="M41 50 L67 66 L41 82 Z" fill="#0a0a0a"/></svg>
+      <span class="logo__word">yağmur<b>&amp;co</b></span>
+    </a>
+    <nav class="nav__links" id="navLinks" aria-label="Ana menü">
+      <a href="#danismanlik"><i>01</i>Danışmanlık</a>
+      <a href="#produksiyon"><i>02</i>Prodüksiyon</a>
+      <a href="#surec"><i>03</i>Süreç</a>
+      <a href="#hakkimizda"><i>04</i>Biz</a>
+    </nav>
+    <a href="#iletisim" class="pill pill--lime" data-cursor="Yaz">Proje Başlat <b>↗</b></a>
+    <button class="nav__toggle" id="navToggle" aria-label="Menüyü aç" aria-expanded="false"><span></span><span></span></button>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="orb orb--1" aria-hidden="true"></div>
+      <div class="orb orb--2" aria-hidden="true"></div>
+
+      <div class="viewfinder" aria-hidden="true">
+        <span class="vf vf--tl"></span><span class="vf vf--tr"></span>
+        <span class="vf vf--bl"></span><span class="vf vf--br"></span>
+        <div class="vf__top">
+          <span class="rec"><i></i>REC</span>
+          <span class="mono" id="timecode">00:00:00:00</span>
+          <span class="mono hide-sm">4K · 25FPS · ISO 800</span>
+        </div>
+        <div class="vf__bottom mono">
+          <span>F/1.8</span><span class="hide-sm">1/50</span><span class="battery">▮▮▮▯</span>
+        </div>
+      </div>
+
+      <div class="hero__inner">
+        <p class="tag mono">[ sosyal medya danışmanlığı + prodüksiyon ajansı ]</p>
+        <h1 class="hero__title" id="heroTitle">
+          <span class="line"><span class="word">Sosyal medyada</span></span>
+          <span class="line"><span class="word word--outline"><span class="rotator" id="rotator" data-words="görünür|güvenilir|etkili|güçlü">görünür</span></span></span>
+          <span class="line"><span class="word">olun<em>.</em></span></span>
+        </h1>
+        <div class="hero__foot">
+          <p class="hero__lead">
+            Kamu kurumları, şirketler ve kişiler için sosyal medya hesaplarını yönetiyor,
+            reklamları planlıyor, video ve fotoğraf çekimlerini kendi ekibimizle yapıyoruz.
+            <strong>Danışmanlık ve prodüksiyon tek çatı altında.</strong>
+          </p>
+          <div class="hero__cta">
+            <a href="#iletisim" class="pill pill--lime pill--big" data-cursor="Hadi">Ücretsiz analiz al <b>↗</b></a>
+            <a href="#danismanlik" class="pill pill--ghost pill--big">Ne yapıyoruz?</a>
+          </div>
+        </div>
+      </div>
+
+      <a href="#danismanlik" class="spin" aria-label="Aşağı kaydır">
+        <svg viewBox="0 0 120 120">
+          <defs><path id="circ" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0" /></defs>
+          <text><textPath href="#circ">STRATEJİ ✦ İÇERİK ✦ PRODÜKSİYON ✦ </textPath></text>
+        </svg>
+        <span>↓</span>
+      </a>
+    </section>
+
+    <!-- KAYAN ŞERİT -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker__track">
+        <span>Reels</span><b>✺</b><span>Kriz İletişimi</span><b>✺</b><span>Drone</span><b>✺</b><span>Kişisel Marka</span><b>✺</b><span>Canlı Yayın</span><b>✺</b><span>Reklam</span><b>✺</b><span>Podcast</span><b>✺</b><span>Strateji</span><b>✺</b>
+        <span>Reels</span><b>✺</b><span>Kriz İletişimi</span><b>✺</b><span>Drone</span><b>✺</b><span>Kişisel Marka</span><b>✺</b><span>Canlı Yayın</span><b>✺</b><span>Reklam</span><b>✺</b><span>Podcast</span><b>✺</b><span>Strateji</span><b>✺</b>
+      </div>
+    </div>
+
+    <!-- DANIŞMANLIK : BENTO -->
+    <section class="section" id="danismanlik">
+      <header class="head">
+        <span class="mono head__idx">(01)</span>
+        <h2 class="h2 reveal">Sosyal medya<br /><span class="lime">danışmanlığı</span></h2>
+        <p class="head__side reveal">Kamu kurumu, şirket ya da kişi olmanıza göre ihtiyaçlarınız değişir. Her biri için ayrı bir plan hazırlıyoruz.</p>
+      </header>
+
+      <div class="bento">
+        <article class="card card--gov reveal" data-cursor="Kamu">
+          <div class="card__top"><span class="mono">A / KAMU</span><span class="card__ic">⌂</span></div>
+          <h3>Kamu<br />Kurumları</h3>
+          <p>Bakanlık, belediye, üniversite ve kamu kuruluşları için güvenilir, şeffaf ve mevzuata uygun dijital iletişim.</p>
+          <ul class="tags">
+            <li>Kurumsal hesap yönetimi</li><li>Vatandaş iletişimi</li><li>Kriz & afet iletişimi</li>
+            <li>Proje tanıtımı</li><li>Personel eğitimi</li>
+          </ul>
+        </article>
+
+        <article class="card card--biz reveal" data-cursor="Marka">
+          <div class="card__top"><span class="mono">B / MARKA</span><span class="card__ic">◆</span></div>
+          <h3>Özel<br />Şirketler</h3>
+          <p>KOBİ'den holdinge; bilinirliği büyüten, satışa ve işe alıma dönüşen sosyal medya.</p>
+          <ul class="tags">
+            <li>Marka konumlandırma</li><li>Meta · TikTok · Google Ads</li><li>Influencer</li>
+            <li>İşveren markası</li><li>Aylık rapor</li>
+          </ul>
+        </article>
+
+        <article class="card card--person reveal" data-cursor="Sen">
+          <div class="card__top"><span class="mono">C / KİŞİ</span><span class="card__ic">◎</span></div>
+          <h3>Kişisel<br />Marka</h3>
+          <p>Yönetici, siyasetçi, hekim, sanatçı ve uzmanlar için güçlü ve tutarlı bir dijital kimlik.</p>
+          <ul class="tags">
+            <li>Profil kurgusu</li><li>Kamera önü koçluğu</li><li>İtibar takibi</li><li>Kampanya dönemi</li>
+          </ul>
+        </article>
+
+        <div class="card card--mini card--lime reveal">
+          <span class="big">7/24</span>
+          <p>Kriz ve gündem anları için hızlı onay & yayın protokolü</p>
+        </div>
+        <div class="card card--mini reveal">
+          <span class="big">1</span>
+          <p>Stratejiden kurguya tek muhatap, tek proje yöneticisi</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODÜKSİYON : İNTERAKTİF LİSTE -->
+    <section class="section section--prod" id="produksiyon">
+      <header class="head">
+        <span class="mono head__idx">(02)</span>
+        <h2 class="h2 reveal">Prodüksiyon<br /><span class="outline">hizmetleri</span></h2>
+        <p class="head__side reveal">Video, fotoğraf ve drone çekimlerinizi kendi ekibimiz ve ekipmanımızla yapıyor; sosyal medyaya hazır şekilde teslim ediyoruz.</p>
+      </header>
+
+      <ul class="plist" id="plist">
+        <li class="prow" data-color="#c8ff2e"><span class="mono">01</span><h3>Kurumsal & Tanıtım Filmi</h3><p>Marka filmi, kurum tanıtımı, faaliyet videoları</p><b>↗</b></li>
+        <li class="prow" data-color="#ff3d7f"><span class="mono">02</span><h3>Reels & Kısa Video</h3><p>Dikey, trend odaklı, hızlı teslim seri içerik</p><b>↗</b></li>
+        <li class="prow" data-color="#3d5aff"><span class="mono">03</span><h3>Fotoğraf</h3><p>Ürün, ekip, mekân, etkinlik ve portre</p><b>↗</b></li>
+        <li class="prow" data-color="#ff8a1f"><span class="mono">04</span><h3>Drone</h3><p>Lisanslı pilotlarla havadan görüntüleme</p><b>↗</b></li>
+        <li class="prow" data-color="#c8ff2e"><span class="mono">05</span><h3>Etkinlik & Canlı Yayın</h3><p>Çok kameralı kayıt, aynı gün paylaşım</p><b>↗</b></li>
+        <li class="prow" data-color="#ff3d7f"><span class="mono">06</span><h3>Podcast & Röportaj</h3><p>Video podcast ve söyleşi serileri</p><b>↗</b></li>
+        <li class="prow" data-color="#3d5aff"><span class="mono">07</span><h3>Motion Graphics</h3><p>Animasyon, bilgi grafiği, altyazılı kurgu</p><b>↗</b></li>
+        <li class="prow" data-color="#ff8a1f"><span class="mono">08</span><h3>Senaryo & Metin</h3><p>Senaryo, storyboard, kampanya fikri</p><b>↗</b></li>
+      </ul>
+    </section>
+
+    <!-- SÜREÇ -->
+    <section class="section" id="surec">
+      <header class="head">
+        <span class="mono head__idx">(03)</span>
+        <h2 class="h2 reveal">Nasıl <span class="lime">çalışıyoruz?</span></h2>
+      </header>
+      <ol class="steps">
+        <li class="step reveal"><span class="step__n">01</span><h3>Analiz</h3><p>Hesaplarınızı, kitlenizi ve rakiplerinizi inceleyip net bir durum raporu çıkarıyoruz.</p></li>
+        <li class="step reveal"><span class="step__n">02</span><h3>Strateji</h3><p>Ton, mesaj, platform ve hedefleri içeren size özel oyun planı.</p></li>
+        <li class="step reveal"><span class="step__n">03</span><h3>Üretim</h3><p>İçerik takvimi, çekimler, kurgu ve yayın — hepsi tek elden.</p></li>
+        <li class="step reveal"><span class="step__n">04</span><h3>Ölçüm</h3><p>Her ay sade bir raporla sonuçlar ve bir sonraki hamle.</p></li>
+      </ol>
+    </section>
+
+    <!-- BİZ -->
+    <section class="section" id="hakkimizda">
+      <span class="mono head__idx">(04)</span>
+      <p class="manifesto reveal">
+        <span data-site="name">yağmur&amp;co</span>; kamu kurumları, özel şirketler ve kişiler için
+        sosyal medya danışmanlığı ve prodüksiyon hizmetlerini <span class="hl">tek çatı altında</span> sunan bir iletişim ajansıdır.
+        <span class="dim">İletişim stratejinizi belirleyen ekip, video ve fotoğraf çekimlerinizi de gerçekleştirir.</span>
+        Bu sayede her içerik, onaylanan plana <span class="hl hl--pink">birebir uygun</span> şekilde üretilir ve yayınlanır.
+      </p>
+      <div class="pillars">
+        <div class="pillar reveal"><span class="mono">✦ KVKK</span><p>Hesap erişimleri ve veriler yazılı protokollerle korunur.</p></div>
+        <div class="pillar reveal"><span class="mono">✦ ŞEFFAF</span><p>Ne yaptığımızı ölçülebilir göstergelerle raporlarız.</p></div>
+        <div class="pillar reveal"><span class="mono">✦ HIZLI</span><p>Gündemi kaçırmayan onay ve yayın akışı.</p></div>
+      </div>
+    </section>
+
+    <!-- İLETİŞİM -->
+    <section class="section contact" id="iletisim">
+      <a href="#contactForm" class="mega" data-cursor="↓">
+        <span>Konuşalım</span><b>↘</b>
+      </a>
+
+      <div class="contact__grid">
+        <div class="contact__info">
+          <p class="lead">Formu doldurun, <span class="lime">bir iş günü içinde</span> size dönelim. Mevcut hesaplarınızın ilk analizini ücretsiz yapıyoruz.</p>
+          <ul class="clist">
+            <li><span class="mono">E-POSTA</span><a data-site-href="mailto:email" data-site="email" href="#">merhaba@ornekajans.com</a></li>
+            <li><span class="mono">TELEFON</span><a data-site-href="tel:phoneRaw" data-site="phone" href="#">+90</a></li>
+            <li><span class="mono">KONUM</span><b data-site="address">İstanbul</b></li>
+          </ul>
+          <a class="pill pill--wa" id="waBtn" href="#" target="_blank" rel="noopener">WhatsApp ↗</a>
+        </div>
+
+        <form class="form" id="contactForm" novalidate>
+          <div class="form__row">
+            <label class="field"><input type="text" name="ad_soyad" required autocomplete="name" placeholder=" " /><span>Ad Soyad *</span></label>
+            <label class="field"><input type="text" name="kurum" autocomplete="organization" placeholder=" " /><span>Kurum / Şirket</span></label>
+          </div>
+          <div class="form__row">
+            <label class="field"><input type="email" name="email" required autocomplete="email" placeholder=" " /><span>E-posta *</span></label>
+            <label class="field"><input type="tel" name="telefon" autocomplete="tel" placeholder=" " /><span>Telefon</span></label>
+          </div>
+          <fieldset class="chips">
+            <legend class="mono">KİMSİNİZ?</legend>
+            <label><input type="radio" name="tur" value="Kamu Kurumu" /><span>Kamu</span></label>
+            <label><input type="radio" name="tur" value="Özel Şirket" checked /><span>Şirket</span></label>
+            <label><input type="radio" name="tur" value="Kişisel" /><span>Kişi</span></label>
+          </fieldset>
+          <fieldset class="chips">
+            <legend class="mono">NE LAZIM?</legend>
+            <label><input type="checkbox" name="hizmet" value="Sosyal Medya Yönetimi" /><span>Hesap Yönetimi</span></label>
+            <label><input type="checkbox" name="hizmet" value="Danışmanlık / Strateji" /><span>Strateji</span></label>
+            <label><input type="checkbox" name="hizmet" value="Reklam Yönetimi" /><span>Reklam</span></label>
+            <label><input type="checkbox" name="hizmet" value="Video Prodüksiyon" /><span>Video</span></label>
+            <label><input type="checkbox" name="hizmet" value="Fotoğraf / Drone" /><span>Foto / Drone</span></label>
+            <label><input type="checkbox" name="hizmet" value="Eğitim" /><span>Eğitim</span></label>
+          </fieldset>
+          <label class="field"><textarea name="mesaj" rows="3" required placeholder=" "></textarea><span>Projenizden bahsedin *</span></label>
+          <label class="kvkk">
+            <input type="checkbox" name="kvkk" required />
+            <span>Kişisel verilerimin, talebime dönüş yapılması amacıyla işlenmesini kabul ediyorum.</span>
+          </label>
+          <button type="submit" class="pill pill--lime pill--big pill--full" data-cursor="Gönder">Gönder <b>↗</b></button>
+          <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__brand" aria-label="yağmur&amp;co">yağmur<span>&amp;co</span></div>
+    <div class="footer__row">
+      <span class="mono" data-site="tagline">Sosyal Medya & Prodüksiyon</span>
+      <nav class="footer__social">
+        <a data-site-href="instagram" href="#" target="_blank" rel="noopener">Instagram</a>
+        <a data-site-href="linkedin" href="#" target="_blank" rel="noopener">LinkedIn</a>
+        <a data-site-href="youtube" href="#" target="_blank" rel="noopener">YouTube</a>
+        <a data-site-href="x" href="#" target="_blank" rel="noopener">X</a>
+      </nav>
+      <span class="mono">© <span id="year"></span> <span style="text-transform:none">yağmur&amp;co</span></span>
+    </div>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
