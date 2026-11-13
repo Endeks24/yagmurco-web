@@ -6,7 +6,7 @@
 window.SITE = {
   name: "yağmur&co",
     tagline: "Sosyal Medya & Prodüksiyon",
-  domain: "www.ornekajans.com",     // CNAME dosyasını da güncelleyin
+  domain: "yagmurco.com",
   email: "merhaba@ornekajans.com",
   phone: "+90 (5xx) xxx xx xx",
   phoneRaw: "+905000000000",        // Tıklanabilir arama linki için
